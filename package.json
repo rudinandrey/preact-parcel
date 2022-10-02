@@ -1,0 +1,26 @@
+{
+    "name": "parcel2-preact",
+    "version": "1.0.0",
+    "description": "",
+    "source": "src/index.html",
+    "scripts": {
+        "start": "parcel",
+        "build": "parcel build --public-url ./",
+        "dev": "parcel watch --public-url ./"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "parcel": "^2.7.0",
+        "parcel-reporter-bundle-manifest": "^1.0.0"
+    },
+    "alias": {
+        "react": "preact/compat",
+        "react-dom": "preact/compat",
+        "react/jsx-runtime": "preact/jsx-runtime"
+    },
+    "dependencies": {
+        "preact": "^10.11.0"
+    }
+}
